@@ -17,7 +17,7 @@ header {
   padding: 3rem 2rem ;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 3rem;
   justify-content: center;
   font-family: 'Poppins';
 }
@@ -48,9 +48,10 @@ header div {
   gap: 2rem;
 }
 
-header div h2, main section h2 {
+header div h1 {
   font-weight: 700;
   text-align: center;
+  color: hsl(192, 100%, 9%);
 }
 
 header div p {
@@ -66,6 +67,7 @@ header .get-started-btn, main section .get-started-btn {
   background-color: hsl(322, 100%, 66%);
   color: hsl(207, 100%, 98%);
   border-radius: 30px;
+  font-weight: 600;
 }
 
  .get-started-btn:hover, .get-started-btn:active{
@@ -172,7 +174,7 @@ header .communities-container p,
     gap: 1rem;
   }
 
-  footer .footer-newsletter-container h4{
+  footer .footer-newsletter-container h2{
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -241,7 +243,7 @@ header .communities-container p,
     display: none;
   }
 
-  header div h2 {
+  header div h1 {
     font-size: 1.5rem;
     margin-top: 3rem;
   } 
@@ -266,8 +268,8 @@ header .communities-container p,
     gap: 2rem
   }
 
-  header .communities-container h1,  
-  header .messages-container  h1{
+  header .communities-container h2 ,  
+  header .messages-container  h2{
     font-size: 3rem;
     font-weight: 700;
   } 
@@ -280,7 +282,7 @@ header .communities-container p,
     color: hsl(192, 100%, 9%);
   }
 
-  main section h3{
+  main section h2{
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -318,7 +320,7 @@ footer .footer-newsletter-container{
   gap:1rem;
 }
 
-footer .footer-newsletter-container h4{
+footer .footer-newsletter-container h3{
   font-size: 1rem;
 }
 
@@ -337,7 +339,7 @@ footer .footer-newsletter-container h4{
     gap: 3rem;
   }
 
-  header div h2 {
+  header div h1 {
     font-size: 2.9rem;
     margin: 6rem 0rem 0rem 0rem;
   }
@@ -354,20 +356,21 @@ footer .footer-newsletter-container h4{
     gap: 1rem;
     justify-content: space-evenly;
     align-items: center;
+    margin: 3rem 0;
   }
 
-  header .communities-container h1,  
-  header .messages-container  h1{
+  header .communities-container h2,  
+  header .messages-container  h2{
     font-size: 5rem;
     font-weight: 700;
   }  
 
 main section{
   flex-direction: row;
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
 }
 
-main section h3{
+main section h2{
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -378,7 +381,7 @@ main .flowing-conversations-container{
 }
 
 main .ready-container{
-  padding: 6rem;
+  padding: 8rem 6rem;
 }
 
 main .ready-container h2{
@@ -386,7 +389,7 @@ main .ready-container h2{
 }
 
 footer{
-  padding: 4rem;
+  padding: 6rem 4rem;
 }
 
 footer .footer-contents{
